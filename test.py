@@ -55,8 +55,8 @@ class SimulationConfig:
     V_pol: float = 1.1
 
     # 計画改定の大きさ α1, α2
-    alpha1: float = 0
-    alpha2: float = 0
+    alpha1: float = 0.5
+    alpha2: float = 0.5
 
     # 計画改定時の事業進捗の低減 λ
     lam: float = 0.3
